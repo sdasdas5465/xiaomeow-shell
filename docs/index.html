@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>天龙归来采集助手 · 下载</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:48px 20px 80px; background:#f7f5ef; color:#2b2a26;
+         font:16px/1.75 "Microsoft YaHei","PingFang SC",system-ui,sans-serif; }
+  .wrap { max-width:760px; margin:0 auto; }
+  h1 { font-size:30px; margin:0 0 6px; letter-spacing:1px; }
+  .sub { color:#7a7568; margin:0 0 32px; }
+  .card { background:#fff; border:1px solid #e5e0d4; border-radius:10px;
+           padding:28px; margin-bottom:20px; }
+  .btn { display:block; text-align:center; text-decoration:none; padding:16px 20px;
+          background:#8a3324; color:#fff; border-radius:6px; font-size:19px;
+          font-weight:600; letter-spacing:1px; }
+  .btn:hover { background:#6f271b; }
+  .meta { display:flex; flex-wrap:wrap; gap:8px 24px; color:#6b665a;
+           font-size:14px; margin-top:16px; }
+  h2 { font-size:18px; margin:0 0 12px; padding-bottom:8px;
+        border-bottom:1px solid #eee8da; }
+  code { background:#f2efe6; padding:2px 6px; border-radius:3px;
+          font:13px/1.6 Consolas,monospace; word-break:break-all; }
+  .hash { display:block; padding:10px 12px; margin:8px 0 12px; }
+  ul { margin:8px 0; padding-left:20px; }
+  li { margin:6px 0; }
+  li a { color:#8a3324; }
+  li span { color:#8a8578; font-size:13px; margin-left:8px; }
+  .tip { color:#6b665a; font-size:14px; }
+  .warn { background:#fdf6e8; border-left:3px solid #c9a227; padding:10px 14px;
+           font-size:14px; margin-top:14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>天龙归来采集助手</h1>
+  <p class="sub">Windows 64 位 · 绿色版，解压即用</p>
+
+  <div class="card">
+    <a class="btn" href="https://github.com/sdasdas5465/xiaomeow-shell/releases/latest/download/xiaomeow-shell-setup-win64.zip">下载最新版 v1.57.2</a>
+    <div class="meta">
+      <span>版本 v1.57.2</span>
+      <span>大小约 254 MB</span>
+      <span>更新于 2026-11-16</span>
+    </div>
+    <p class="tip" style="margin:14px 0 0">
+      这个链接永远指向最新版，可以存书签、发群公告，不用每次换地址。<br>
+      打不开请到 <a href="https://github.com/sdasdas5465/xiaomeow-shell/releases/tag/v1.57.2">GitHub Release 页面</a> 手动下载。
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>国内下载慢？用备用线路</h2>
+    <ul>
+      <li><a href="https://mirror.ghproxy.com/https://github.com/sdasdas5465/xiaomeow-shell/releases/download/v1.57.2/xiaomeow-shell-setup-win64.zip" rel="nofollow noopener">镜像 A（ghproxy）</a><span>下载后务必核对 SHA256</span></li>
+      <li><a href="https://ghproxy.net/https://github.com/sdasdas5465/xiaomeow-shell/releases/download/v1.57.2/xiaomeow-shell-setup-win64.zip" rel="nofollow noopener">镜像 B（gh-proxy）</a><span>下载后务必核对 SHA256</span></li>
+    </ul>
+    <p class="tip">备用线路是第三方公益代理，可能临时失效；只用于下载公开文件，
+       不要在代理链接里带账号、令牌或任何登录信息。</p>
+    <div class="warn">无论从哪条线路下载，装之前都请核对一次 SHA256，
+       值和发布页不一致就删掉重下。</div>
+  </div>
+
+  <div class="card">
+    <h2>校验文件（SHA256）</h2>
+    <code class="hash">259738375e700d21f7ec6953fd2d0488c3596f6513eeebc4f620866d4a671a9b</code>
+    <p class="tip">下载完在 zip 所在目录打开 PowerShell，执行：</p>
+    <code class="hash">Get-FileHash .\xiaomeow-shell-setup-win64.zip -Algorithm SHA256</code>
+    <p class="tip">完整校验清单：<a href="https://github.com/sdasdas5465/xiaomeow-shell/releases/latest/download/SHA256SUMS.txt">SHA256SUMS.txt</a></p>
+  </div>
+
+  <div class="card">
+    <h2>安装与更新</h2>
+    <ul>
+      <li>解压到<b>纯英文路径</b>的普通文件夹（例如 <code>D:\tlbb\</code>），
+          不要放 Program Files，也不要直接放在桌面。</li>
+      <li>双击 <code>xiaomeow-shell.exe</code>。首次运行 Windows SmartScreen
+          可能提示「已保护你的电脑」，点「更多信息 → 仍要运行」。</li>
+      <li>已装过的用户不用重复下载：软件里「设置 → 软件更新 → 检查更新」，
+          一次只下几 MB 的差量包。</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
